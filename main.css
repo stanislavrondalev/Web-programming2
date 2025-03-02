@@ -1,9 +1,18 @@
+/* roboto-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     src: url('roboto-v47-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('roboto-v47-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 html{
     font-size: 16px;
@@ -12,17 +21,17 @@ body{
     width: 1440px;
     height: 11050.391px;
     flex-shrink: 0;
-    display: block;
     margin: 0px;
 }
 header{
     display: flex;
-    width: 100%;
+    width: 106%;
     height: 1%;
     flex-shrink: 0;
     justify-content: center;
     align-items: center;
     background: #FFF;
+    box-shadow: 0px 3px 12px 0px rgba(18, 18, 18, 0.06);
 }
 .block1{
     display: flex;
@@ -39,8 +48,8 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-img{
-    width: 13.2%;
+img.image{
+    width: 12.2%;
     height: 85.7%;
     flex-shrink: 0;
 }
@@ -132,4 +141,271 @@ p.register{
     font-size: 1em;
     font-style: normal;
     font-weight: 400;
+}
+main{
+    width: 100%;
+    height: 98%;
+}
+p.fds{
+    color: #FF5634;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+}
+p.df{
+    color: #121212;
+    font-family: Roboto;
+    font-size: 3.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.982px;
+    margin-top: 1%;
+}
+p.text1{
+    color: #656565;
+    font-family: Roboto;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+    margin-top: -5%;
+}
+span.text2{
+    color: #656565;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+}
+.deliciousfood{
+    display: flex;
+    width: 100%;
+    height: 8.42%;
+    justify-content: center;
+    align-items: center;
+}
+.block2{
+    display: flex;
+    width: 84.9%;
+    height: 77.85%;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    gap: 8.2%;
+    z-index: 1;
+}
+.block2-1{
+    width: 47.95%;
+    height: 82.5%;
+    flex-shrink: 0;
+}
+.block2-1-1{
+    width: 100%;
+    height: 44.54%;
+    flex-shrink: 0;
+}
+.block2-1-2{
+    display: inline-flex;
+    width: 100%;
+    height: 12.46%;
+    align-items: flex-start;
+    gap: 4.6%;
+    flex-shrink: 0;
+    margin-top: 8%;
+}
+.block2-1-2-1{
+    display: flex;
+    width: 42.15%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5634;
+    background: #FF5634;
+    justify-content: center;
+    align-items: center;
+}
+.block2-1-2-2{
+    display: flex;
+    width: 34.98%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #EDEDED;
+    background: #FFF;
+    justify-content: center;
+    align-items: center;
+}
+p.registerrestaurant{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+}
+p.downloadapp2{
+    color: #121212;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+img.telephon{
+    width: 29.13%;
+    height: 100%;
+    flex-shrink: 0;
+}
+img.fastfood{
+    width: 41.8%;
+    height: 128%;
+    flex-shrink: 0;
+    position: absolute;
+    right: 0.2%;
+}
+hr.line1{
+    width: 100%;
+    height: 0.17%;
+    flex-shrink: 0;
+    margin-top: 10%;
+}
+.block2-1-3{
+    display: flex;
+    height: 15.53%;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin-top: 12%;
+}
+.block2-1-3-1{
+    display: flex;
+    width: 26.28%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.block2-1-3-2{
+    display: flex;
+    width: 31.23%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.block2-1-3-3{
+    display: flex;
+    width: 30.546%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+span.red{
+    color: #FF5634;
+    font-family: Roboto;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66.024px;
+}
+p.grey{
+    color: #656565;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.998px;
+    margin-top: 3%;
+    text-align: center;
+}
+.text3{
+    width: 100%;
+    height: 72.53%;
+    flex-shrink: 0;
+    color: #121212;
+    font-family: Roboto;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+.text4{
+    width: 100%;
+    height: 72.53%;
+    flex-shrink: 0;
+    color: #121212;
+    font-family: Roboto;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+.text5{
+    width: 100%;
+    height: 72.53%;
+    flex-shrink: 0;
+    color: #121212;
+    font-family: Roboto;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+.img-restaurants{
+    display: flex;
+    width: 100%;
+    height: 3.645%;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.block3{
+    display: flex;
+    width: 84.86%;
+    height: 29.11%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 41.74%;
+}
+.text6{
+    width: 100%;
+    height: 19.13%;
+    text-align: center;
+    color: #656565;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.images{
+    display: flex;
+    width: 96.22%;
+    height: 39.13%;
+    justify-content: space-between;
+}
+img.restaurant1{
+    width: 19.56%;
+    height: 88.9%;
+}
+img.restaurant2{
+    width: 19.56%;
+    height: 95.56%;
+}
+img.restaurant3{
+    width: 19.56%;
+    height: 93.3%;
+}
+img.restaurant4{
+    width: 19.56%;
+    height: 100%;
+}
+hr.line2{
+    width: 84.86%;
+    height: 0.009%;
+    flex-shrink: 0;
 }
