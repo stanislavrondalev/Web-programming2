@@ -161,7 +161,7 @@ p.df{
     font-size: 3.875rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 71.982px;
+    line-height: 116.1%;
     margin-top: 1%;
 }
 p.text1{
@@ -170,7 +170,7 @@ p.text1{
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30.006px;
+    line-height: 250.05%;
     margin-top: -5%;
 }
 span.text2{
@@ -179,7 +179,7 @@ span.text2{
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30.006px;
+    line-height: 250.05%;
 }
 .deliciousfood{
     display: grid;
@@ -200,6 +200,15 @@ span.text2{
     gap: 8.2%;
     left: 21%;
     z-index: 1;
+}
+img.fastfood{
+    width: 41.8%;
+    height: 100%;
+    flex-shrink: 0;
+    position: relative;
+    left: -8%;
+    top: 0%;
+}
 .block2-1{
     width: 47.95%;
     height: 82.5%;
@@ -262,14 +271,6 @@ img.telephon{
     width: 29.13%;
     height: 100%;
     flex-shrink: 0;
-}
-img.fastfood{
-    width: 41.8%;
-    height: 100%;
-    flex-shrink: 0;
-    position: relative;
-    left: -8%;
-    top: 0%;
 }
 hr.line1{
     width: 100%;
@@ -412,4 +413,5 @@ hr.line2{
     width: 84.86%;
     height: 0.009%;
     flex-shrink: 0;
+    margin-top: -0.2%;
 }
