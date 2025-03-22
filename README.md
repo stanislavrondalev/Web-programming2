@@ -1,1 +1,1 @@
-# Web-programming2
+# https://stanislavrondalev.github.io/Web-programming2/index
