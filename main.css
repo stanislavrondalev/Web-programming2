@@ -21,7 +21,7 @@ html{
 body{
     display: flex;
     width: 1440px;
-    height: 11050px;
+    height: 11050.391px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@ body{
 header{
     display: flex;
     width: 100%;
-    height: 1%;
+    height: 1.0859344%;
     flex-shrink: 0;
     justify-content: center;
     align-items: center;
@@ -39,29 +39,37 @@ header{
 }
 .block1{
     display: flex;
-    width: 84.9%;
+    width: 84.86%;
     height: 46.7%;
     justify-content: space-between;
     align-items: center;
 }
 .block1-1{
     display: flex;
-    width: 58.2%;
+    width: 58.183306%;
     height: 100%;
     flex-shrink: 0;
-    justify-content: space-between;
     align-items: center;
 }
 img.image{
-    width: 12.2%;
-    height: 85.7%;
+    width: 13.175%;
+    height: 85.714%;
     flex-shrink: 0;
 }
 .block1-1-1{
     display: flex;
-    width: 44.6%;
-    height: 32%;
-    justify-content: space-around;
+    width: 44.5850914%;
+    height: 32.1428571%;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+.block1-1-1-1{
+    display: flex;
+    width: 91.7981%;
+    height: 100%;
+    justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
 }
@@ -72,6 +80,7 @@ img.image{
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
+    margin-left: 5%;
 }
 .block1-1-3-1{
     display: flex;
@@ -102,6 +111,7 @@ p.home{
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
+    margin: 0;
 }
 p.about{
     color: #121212;
@@ -109,6 +119,7 @@ p.about{
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
+    margin: 0;
 }
 p.pricing{
     color: #121212;
@@ -116,13 +127,17 @@ p.pricing{
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
+    margin: 0;
 }
 p.pages{
+    width: 21.9931%;
     color: #121212;
     font-family: 'Roboto';
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
+    margin: 0;
+    text-align: left;
 }
 p.cart0{
     color: #121212;
@@ -130,6 +145,8 @@ p.cart0{
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
+    margin: 0;
+    margin-left: 2.1%;
 }
 p.downloadapp{
     color: #121212;
@@ -154,6 +171,8 @@ p.fds{
     font-weight: 400;
     letter-spacing: 1.08px;
     text-transform: uppercase;
+    margin: 0;
+    margin-top: 2.5%;
 }
 p.df{
     color: #121212;
@@ -162,7 +181,8 @@ p.df{
     font-style: normal;
     font-weight: 700;
     line-height: 116.1%;
-    margin-top: 1%;
+    margin: 0;
+    margin-top: 4.5%;
 }
 p.text1{
     color: #656565;
@@ -170,8 +190,9 @@ p.text1{
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 250.05%;
-    margin-top: -5%;
+    line-height: 200.05%;
+    margin: 0;
+    margin-top: 3%;
 }
 span.text2{
     color: #656565;
@@ -183,13 +204,12 @@ span.text2{
 }
 main{
     width: 100%;
-    height: 98%;
+    height: 98.0543674%;
     margin: 0;
 }
 .deliciousfood{
     display: grid;
     display: flex;
-    grid-template-columns: repeat(2, 1fr);
     width: 100%;
     height: 8.42%;
     justify-content: center;
@@ -203,8 +223,9 @@ main{
     height: 77.85%;
     flex-shrink: 0;
     justify-content: flex-start;
-    gap: 5.2%;
-    left: 21%;
+    gap: 4%;
+    top: 5%;
+    left: 20%;
     z-index: 1;
 }
 img.fastfood{
@@ -230,9 +251,9 @@ img.fastfood{
     width: 100%;
     height: 12.46%;
     align-items: flex-start;
-    gap: 4.6%;
+    gap: 4%;
     flex-shrink: 0;
-    margin-top: 8%;
+    margin-top: 7%;
 }
 .block2-1-2-1{
     display: flex;
@@ -277,6 +298,7 @@ img.telephon{
     width: 29.13%;
     height: 100%;
     flex-shrink: 0;
+    margin-top: -0.5%;
 }
 hr.line1{
     width: 100%;
@@ -286,32 +308,36 @@ hr.line1{
 }
 .block2-1-3{
     display: flex;
+    width: 100%;
     height: 15.53%;
     justify-content: space-between;
+    align-items: flex-start;
     flex-shrink: 0;
-    margin-top: 12%;
+    margin-top: 9.7%;
 }
 .block2-1-3-1{
     display: flex;
     width: 26.28%;
     height: 100%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .block2-1-3-2{
     display: flex;
     width: 31.23%;
     height: 100%;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .block2-1-3-3{
     display: flex;
     width: 30.546%;
     height: 100%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 span.red{
     color: #FF5634;
@@ -328,41 +354,36 @@ p.grey{
     font-style: normal;
     font-weight: 400;
     line-height: 19.998px;
-    margin-top: 3%;
-    text-align: center;
+    margin: 0;
+    margin-top: 2%;
 }
-.text3{
-    width: 100%;
-    height: 72.53%;
+p.text3{
     flex-shrink: 0;
     color: #121212;
     font-family: Roboto;
     font-size: 3.5rem;
     font-style: normal;
     font-weight: 700;
-    text-align: center;
+    margin: 0;
 }
-.text4{
-    width: 100%;
-    height: 72.53%;
+p.text4{
     flex-shrink: 0;
     color: #121212;
     font-family: Roboto;
     font-size: 3.5rem;
     font-style: normal;
     font-weight: 700;
-    text-align: center;
+    margin: 0;
 }
-.text5{
-    width: 100%;
-    height: 72.53%;
+p.text5{
     flex-shrink: 0;
     color: #121212;
     font-family: Roboto;
     font-size: 3.5rem;
     font-style: normal;
     font-weight: 700;
-    text-align: center;
+    margin: 0;
+    margin-left: 7%;
 }
 .img-restaurants{
     display: flex;
@@ -374,12 +395,11 @@ p.grey{
 }
 .block3{
     display: flex;
-    width: 84.86%;
+    width: 88.194%;
     height: 29.11%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 41.74%;
 }
 .text6{
     width: 100%;
@@ -392,6 +412,8 @@ p.grey{
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
+    margin: 0;
+    margin-left: 2%;
 }
 .images{
     display: flex;
@@ -399,20 +421,20 @@ p.grey{
     height: 39.13%;
     justify-content: space-between;
 }
-img.restaurant1{
-    width: 19.56%;
+img.rest1{
+    width: 19.5581014%;
     height: 88.9%;
 }
-img.restaurant2{
-    width: 19.56%;
+img.rest2{
+    width: 19.5581014%;
     height: 95.56%;
 }
-img.restaurant3{
-    width: 19.56%;
+img.rest3{
+    width: 19.5581014%;
     height: 93.3%;
 }
-img.restaurant4{
-    width: 19.56%;
+img.rest4{
+    width: 19.5581014%;
     height: 100%;
 }
 hr.line2{
@@ -436,7 +458,6 @@ hr.line2{
     height: 67.95%;
     flex-shrink: 0;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .block4-1{
@@ -446,6 +467,7 @@ hr.line2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -1.5%;
 }
 p.text7{
     color: #FF5634;
@@ -549,7 +571,7 @@ img.bike{
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    margin-top: 4%;
+    margin-top: 2.7%;
 }
 .buttons{
     display: flex;
@@ -620,11 +642,8 @@ p.registerrestaurant2{
     justify-content: space-between;
 }
 .block5-1-1-1{
-    display: flex;
     width: 100%;
     height: 30.4%;
-    flex-direction: column;
-    justify-content: space-between;
 }
 p.text13{
     color: #121212;
@@ -643,13 +662,18 @@ p.text14{
     font-weight: 400;
     line-height: 250.05%;
     margin: 0;
+    margin-top: 2.5%;
 }
-span.text15{
+p.text15{
+    position: relative;
     color: #656565;
     font-family: Roboto;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
+    margin: 0;
+    margin-left: 53.5%;
+    margin-top: -5.4%;
 }
 .block5-1-1-2{
     display: grid;
@@ -683,6 +707,7 @@ p.text16{
     font-weight: 400;
     line-height: 127.3%; /*127.3%*/
     margin: 0;
+    margin-top: -2%;
 }
 p.text17{
     color: #656565;
@@ -692,7 +717,7 @@ p.text17{
     font-weight: 400;
     line-height: 214.329%; /* 214.329% */
     margin: 0;
-    margin-top: 5.58%;
+    margin-top: 4%;
 }
 p.text18{
     color: #656565;
@@ -709,6 +734,7 @@ img.fastdeliveries{
     width: 22.95%;
     height: 31.835%;
     margin: 0;
+    margin-top: -2%;
 }
 .block5-1-2{
     display: flex;
@@ -725,10 +751,11 @@ img.duplerburger{
 }
 img.burger{
     position: relative;
-    width: 84.59%;
+    width: 79.59%;
     height: 100%; /*683.828px*/
     flex-shrink: 0;
     left: -26.5%;
+    top: -1%;
 }
 .block5-2{
     display: flex;
@@ -737,6 +764,7 @@ img.burger{
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    margin-bottom: 0.5%;
 }
 .block6{
     display: flex;
@@ -745,6 +773,7 @@ img.burger{
     flex-shrink: 0;
     background: #121212;
     justify-content: space-between;
+    margin-top: -0.5%;
 }
 .block6-1{
     display: flex;
@@ -761,6 +790,7 @@ img.burger{
     flex-shrink: 0;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 1%;
 }
 .block6-1-1-1{
     display: flex;
@@ -788,6 +818,7 @@ p.text20{
     font-weight: 400;
     line-height: 250.05%; /* 250.05% */
     margin: 0;
+    margin-bottom: -0.5%;
 }
 span.text21{
     color: #FFF;
@@ -977,6 +1008,7 @@ span.text26{
     margin: 0;
     grid-column-gap: 7.036%;
     grid-row-gap: 13.33%;
+    margin-bottom: -0.5%;
 }
 .block7-1-2-1{
     display: flex;
@@ -1003,6 +1035,17 @@ p.text27{
     line-height: 142.9%; /* 142.9% */
     margin: 0;
 }
+p.text27-1{
+    color: #121212;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142.9%; /* 142.9% */
+    margin: 0;
+    margin-left: -0%;
+}
 p.text28{
     color: #656565;
     text-align: center;
@@ -1012,6 +1055,30 @@ p.text28{
     font-weight: 400;
     line-height: 166.7%; /* 166.7% */
     margin: 0;
+}
+p.text28-1{
+    color: #656565;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.7%; /* 166.7% */
+    margin: 0;
+    margin-bottom: 2%;
+}
+p.text28-2{
+    width: 98%;
+    color: #656565;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.7%; /* 166.7% */
+    margin: 0;
+    margin-bottom: -1%;
+    margin-left: 5%;
 }
 .block7-2{
     display: flex;
@@ -1068,7 +1135,7 @@ img.deliveryaddress{
     height: 91.73%;
     flex-shrink: 0;
     z-index: 2;
-    left: -91%;
+    left: -90%;
     top: 9%;
 }
 img.peoplewithtelephon{
@@ -1078,7 +1145,7 @@ img.peoplewithtelephon{
     flex-shrink: 0;
     border-radius: 17.89%;
     z-index: 3;
-    left: -126%;
+    left: -125.5%;
     top: 29%;
 }
 .block8-1-2{
@@ -1097,6 +1164,7 @@ img.peoplewithtelephon{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    margin-top: 0.3%;
 }
 p.text29{
     color: #121212;
@@ -1166,6 +1234,14 @@ p.text32{
     line-height: 190.815%; /* 230.815% */
     margin: 0;
 }
+span.text32-1{
+    color: #656565;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
 p.text33{
     color: #121212;
     font-family: Roboto;
@@ -1181,7 +1257,7 @@ img.youcart{
     height: 91.73%;
     flex-shrink: 0;
     z-index: 2;
-    left: -68%;
+    left: -68.5%;
     top: 9%;
 }
 img.burger2{
@@ -1191,7 +1267,7 @@ img.burger2{
     flex-shrink: 0;
     border-radius: 17.89%; /*61px*/
     z-index: 3;
-    left: -148%;
+    left: -148.5%;
     top: 30%;
 }
 .whatourclientsay{
@@ -1256,7 +1332,7 @@ p.text35{
     font-weight: 400;
     line-height: 166.7%; /* 166.7% */
     margin: 0;
-    margin-top: -7.5%;
+    margin-top: -7.8%;
     margin-left: 70.1%;
 }
 .buttons2{
@@ -1405,6 +1481,7 @@ p.text38{
     font-weight: 400;
     line-height: 117.9%; /* 117.9% */
     margin: 0;
+    margin-top: 1.5%;
 }
 .block10-1-1-2{
     display: flex;
@@ -1430,29 +1507,29 @@ p.text38{
 }
 img.duplerburger2{
     position: relative;
-    width: 47.45%;
+    width: 47.45%; /*47.45% 92.94%*/
     height: 92.94%;
     flex-shrink: 0;
     z-index: 1;
-    top: -13%;
-    left: -2%;
-    transform: rotate(-12deg);
+    top: -12%;
+    left: -1.7%;
+    transform: rotate(-13deg);
 }
 img.browserestaraunts{
     position: relative;
     width: 48.856%;
     height: 98.235%;
     flex-shrink: 0;
-    top: -9%;
-    left: -12%;
-    transform: rotate(12deg);
+    top: -9.2%;
+    left: -10.75%;
+    transform: rotate(12.2deg);
 }
 .deliverx2{
     display: flex;
     width: 100%;
     height: 7.226%; /*783px*/
     justify-content: center;
-    background: #bbff34;
+    background: #FFF;
 }
 .block11{
     display: flex;
@@ -1460,7 +1537,6 @@ img.browserestaraunts{
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
-    background: #34bbff;
 }
 .block11-1{
     display: flex;
@@ -1475,6 +1551,7 @@ img.browserestaraunts{
     height: 48.322%;
     justify-content: space-between;
     align-items: center;
+    margin-top: -1%;
 }
 .block11-1-1-1{
     display: flex;
@@ -1497,6 +1574,7 @@ p.text39{
     font-weight: 400;
     line-height: 250.05%; /* 250.05% */
     margin: 0;
+    margin-bottom: -1.2%;
 }
 .block11-1-1-2{
     display: flex;
@@ -1554,7 +1632,6 @@ hr.line3{
     height: 61.686%; /*483px*/
     flex-direction: column;
     justify-content: center;
-    background: #34ffd3;
 }
 .block11-2-1{
     display: inline-flex;
@@ -1693,7 +1770,7 @@ footer{
     height: 0.86%;
     flex-shrink: 0;
     justify-content: center;
-    background: #3460ff;
+    background: #FFF;
 }
 .block12{
     display: flex;
